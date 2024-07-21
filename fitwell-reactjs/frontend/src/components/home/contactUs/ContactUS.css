@@ -1,0 +1,150 @@
+
+.containerContactUs{
+  margin: 50px auto; 
+  color: black;
+}
+
+.containerContactUs h1{
+  color: orangered;
+  margin: 0%;
+}
+
+.contact-box{
+  display: flex;
+  width: 90%;
+  /* padding: 2%; */
+  margin: auto;
+  margin-top: 0%;
+}
+
+.contact-left{
+  /* flex-basis: 60%; */
+  padding: 20px 20px;
+  width: 70%;
+  background-color: white;
+}
+
+.contact-left h3{
+  margin-bottom: auto;
+}
+
+.contact-right{
+  /* flex-basis: 40%; */
+  width: 30%;
+  padding: 40px;
+  background: orangered;
+  color: #fff;
+}
+
+
+
+.input-row{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.input-row .input-group{
+  flex-basis: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.contactUsInputText , .contactUsTextarea {
+  background-color: white;
+  margin: 0.3rem;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding-bottom: 5px;
+  padding: 0.5rem;
+  box-shadow: black;
+
+}
+
+.contactUsTextarea{
+  width: 95%;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+  height: 10vw;
+  box-shadow: none;
+  margin: 10px auto;
+}
+
+.input-group label{
+  margin-left:0.2rem;
+  margin: 0%;  
+  display: block;
+  color: orangered;
+}
+
+.contactUsSubmit {
+  background: orangered;
+  border: none;
+  outline: none;
+  color: #fff;
+  text-align: center;
+  width: 20vw;
+  height: 5vh;
+  margin: auto;
+  border-radius: 5px;
+  align-self: center
+  
+}
+
+.contact-left h3{
+  color: orangered;
+  font-weight: 600;
+  margin-bottom: 30px;
+  
+}
+
+.contact-right h3{
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.contactUsTR td:first-child{
+  padding-right: 20px;
+}
+
+.contactUsTR td{
+  padding-top: 20px;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 600px) {
+  .toptitle{
+      left: 30%;
+  }
+}
+.map iframe{
+  width: 50%;
+}
+
+.containerContactUs{
+  margin-top: 6vw;
+  padding-left: 50px;
+  padding-right: 70px;
+  position: relative;
+}
+.contactUsInputText {
+  box-shadow: none;
+  width: 100%;
+}
+
+.contactUsForm {
+  width: 100%;
+  justify-content: center;
+}
+/* .contactUsForm in */

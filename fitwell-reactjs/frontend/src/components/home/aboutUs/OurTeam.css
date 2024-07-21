@@ -1,0 +1,70 @@
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+
+.ourteam{
+text-align: center;
+background-color: #000;
+}
+.ourteam-firstline{
+color:#ea3209ef;
+font-family: 'Mulish', sans-serif; 
+text-align: center;
+font-size: 25px;
+}
+
+.ourteam-secondline{
+color: white;
+font-family: 'Anton', sans-serif;
+text-align: center;
+font-size: 30px;
+font-weight: bolder;
+margin-bottom: 10px;
+} 
+.cardOurTeam{
+background: #000;
+border: 0.2rem solid white;
+}
+
+.card-foot{
+background-color: rgba(0, 0, 0, 0.966);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+padding: 3px 0;
+opacity: 1;
+position: absolute;
+width: 100%;
+bottom: 0%;
+color: aliceblue;
+max-height: 35%;
+font-weight: bolder;
+font-size: 16px;
+}
+.teamMateName , .teamJOb {
+margin-bottom: 2px;
+font-size:1em;
+color: rgb(255, 255, 255);
+font-weight: 500;
+}
+
+.socialMediaIcon img{
+margin: 0 10px;
+}
+.socialMediaIcon img:hover{
+cursor: pointer;
+}
+
+.btn-decs-container{
+border: 0px;
+padding: 0%;
+}
+.decs-container img{
+  width: 100%;
+}
+.decs-container {
+max-height: 450px;
+position: relative;
+}
